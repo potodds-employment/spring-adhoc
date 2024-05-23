@@ -7,6 +7,11 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
 import com.potodds.ratelimit.exceptions.RateLimitExceededException;
 
+/*
+ * Rate Limiting in Spring Boot
+ * https://levelup.gitconnected.com/rate-limiting-in-spring-boot-52220ba272c6
+ */
+
 @Aspect
 @Component
 public class RateLimitingAspect {
